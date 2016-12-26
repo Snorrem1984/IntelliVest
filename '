@@ -1,0 +1,92 @@
+* [33m5f8d4b0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31mheroku/master[m[33m)[m div2
+* [33mf664483[m under prod
+* [33mc60ceb4[m div1
+* [33mae84cd9[m New index.html
+* [33ma3250f6[m added Greetingsmodle to admin
+* [33m1c555f1[m New base.html
+* [33m4ae7a86[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Update runtime.txt
+*   [33m27e4753[m Merge pull request #17 from fanquake/patch-1
+[32m|[m[33m\[m  
+[32m|[m * [33mbd14b50[m Update Python version in runtime.txt
+* [33m|[m   [33m55d11e3[m Merge pull request #18 from fanquake/patch-2
+[34m|[m[35m\[m [33m\[m  
+[34m|[m * [33m|[m [33m1591d6d[m Update requirements.txt
+[34m|[m [33m|[m[33m/[m  
+* [33m|[m [33m5b5beb5[m Consistent naming across the guides
+[33m|[m[33m/[m  
+* [33m33fafbd[m change to title
+* [33m375b863[m add next steps
+*   [33m30a8811[m Merge pull request #16 from slashme/patch-1
+[36m|[m[1;31m\[m  
+[36m|[m * [33me77859e[m Typo fix
+[36m|[m[36m/[m  
+* [33m763cd1b[m Create a default .env
+* [33m7d27292[m Delete .env
+* [33md59e2e4[m remove 401-ing logo from app.json
+* [33me5dac6d[m Update README.md
+* [33m7b75d10[m Remove BASE_DIR
+* [33m01197e9[m updated collectstatic settings
+* [33m26df875[m update settings.py
+* [33m19fbff2[m update to deps
+* [33m0994779[m fix urlpattern usage
+* [33m88141e5[m fix template warning
+* [33m7ea1d28[m migrations for hello app
+*   [33mfe7f948[m Merge pull request #14 from johan718/master
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33m521e8e4[m Just adding an 's'.
+* [1;33m|[m [33m753ea3c[m no more sqlalchemy
+* [1;33m|[m [33m739eb79[m Update runtime.txt
+* [1;33m|[m [33mf4cbd51[m updated dependencies
+* [1;33m|[m [33md3b3d51[m remove django-postgrespool
+[1;33m|[m[1;33m/[m  
+* [33m5d3d07b[m Remove foreman
+* [33mb4636cf[m logo/image
+* [33m6b4e711[m deploy to heroku button
+* [33mcbbd4ee[m app.json update
+*   [33m3e482c4[m Merge pull request #7 from silverbux/master
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33m5a4b322[m added app.json
+[1;34m|[m[1;34m/[m  
+* [33m1c56814[m fix script loading sequence to fix dropdown
+* [33m84830d7[m fix db route rendering
+* [33m5d7407b[m Add collectstatic to local deploy
+* [33mcb04873[m correct links on home page
+* [33m5c8de38[m requirements.txt
+* [33ma568c41[m cleanup css
+* [33m0bdab7f[m css test
+* [33m9cfa363[m cleanup settings
+* [33m6a1faee[m add jquery
+* [33mc9a7961[m improved setup doc, improved env var
+* [33m9cc0d84[m updated language logo for new ui
+* [33m5f86e08[m first pass at adding the UI.  Still needs jQuery and fix for assets
+* [33m6f4f2eb[m update getting started settings for 1.8
+* [33m2e07fa5[m update settings.py
+* [33mb5b05df[m django-postgrespool
+* [33mb8aee32[m dj-database-url
+* [33m592dd43[m update wsgi.py to use whitenoise
+* [33m9db3068[m add psycopg2
+* [33m018e127[m use whitenoise
+*   [33m9e2d9d4[m Merge pull request #5 from rhcarvalho/fix-db-config
+[1;36m|[m[31m\[m  
+[1;36m|[m * [33mff69f09[m Remove duplication in database settings
+[1;36m|[m * [33m87258e4[m Replace syncdb with migrate
+[1;36m|[m * [33m236784a[m Use SQLite when DATABASE_URL is not set
+[1;36m|[m * [33m7312b0a[m Add new line at EOF
+[1;36m|[m[1;36m/[m  
+*   [33m0dce6fd[m Merge pull request #4 from heroku/upgraded_dependencies
+[32m|[m[33m\[m  
+[32m|[m * [33m50e48ae[m add Windows Procfile
+[32m|[m * [33m9ade8e4[m upgrade Django version and other dependencies
+[32m|[m * [33mf2e49eb[m use 2.7.9 and not 2.7.8
+[32m|[m[32m/[m  
+* [33md177fae[m Update README.md
+* [33m9b0dc25[m db page
+* [33m96d095e[m single view
+* [33m84e9761[m no app.json
+* [33m4b1bf18[m dummy static file
+* [33m749c56e[m reorder settings around a bit
+* [33m8b4c155[m app.json
+* [33m2c6c755[m readme
+* [33m15e88c7[m add .gitignore
+* [33m6ba7fc3[m mm
+* [33m1db9cf1[m created with 'django-admin.py startproject hellodjango .'
