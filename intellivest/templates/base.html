@@ -8,6 +8,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
+
+  .navbar-brand>img {
+   max-height: 100%;
+   height: 100%;
+   width: auto;
+   margin: 0 auto;
+
+
+   /* probably not needed anymore, but doesn't hurt */
+   -o-object-fit: contain;
+   object-fit: contain; 
+
+  }
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
       margin-bottom: 0;
@@ -41,6 +54,7 @@
     }
   </style>
   <script src="http://code.highcharts.com/highcharts.js"></script>
+  {% load staticfiles %}
 </head>
 <body>
 
@@ -52,7 +66,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Intellivest.no</a>
+      <a class="navbar-brand" href="#"><img src="{% static 'IntelliVest_logo_light.png'%}"></a>
+
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
