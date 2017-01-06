@@ -21,7 +21,7 @@ body {
   max-height: 100%;
   height: 100%;
   width: auto;
-  margin: 0px auto;
+  margin: 5px auto;
 }
 
 .navbar-nav{
@@ -58,6 +58,37 @@ body {
 	color:#fff !important;
 }
 
+.section-primary{
+	background:#0383c0;
+	color:#fff;
+	padding:60px 0;
+}
+
+
+.section-secondary{
+	background:#337ab7;
+	color:#fff;
+	padding:60px 0;
+}
+
+.slogan{
+	text-align: center;
+}
+
+.slogan h1{
+	font-size:50px;
+	margin-bottom:25px;
+}
+
+.slogan p{
+	font-size:20px;
+}
+
+.slogan a{
+	margin-top:20px;
+}
+
+
 .jumbotron{
 	margin:0 !important;
 	min-height:400px;
@@ -81,8 +112,16 @@ max-width: 120% !important; /* or to whatever you want here */
 max-height: auto !important; /* or to whatever you want here */
 }
 
+.img-second{
+	max-width: 70% !important; 
+	max-height: auto !important;
+	padding-top: 0px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+}
+
 .fa-color{
-	color:#0383c0;
+	color:#337ab7;
 }
 
 .feature-list li{
@@ -91,9 +130,19 @@ max-height: auto !important; /* or to whatever you want here */
 	line-height: 2em;
 }
 
+.fa-stack        .fa { color: #fff; cursor: pointer; }
+/*.fa-stack        .fa.fa-circle-thin { color: black; }*/
+.fa-stack        .fa.fa-circle { opacity:1.0; color:#337ab7; }
+
+.fa-stack:hover  .fa.fa-user-plus { color: #fff; }
+/*.fa-stack        .fa.fa-circle-thin { color: black; }*/
+.fa-stack:hover  .fa.fa-circle { opacity:1.0; color:#204d74; }
+
 footer{
 	text-align:center;
 	height:60px;
-	background:#f4f4f4;
+	background:#101010;
+	font-family: 'Oswald', sans-serif;
+	color:#9d9d9d;
 	padding-top:20px;
 }
