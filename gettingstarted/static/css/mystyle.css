@@ -66,8 +66,14 @@ body {
 
 
 .section-secondary{
-	background:#337ab7;
+	background:#337ab7; 
 	color:#fff;
+	padding:60px 0;
+}
+
+.section-secondary-white{
+	background:#fff; 
+/*	color:#fff;*/
 	padding:60px 0;
 }
 
@@ -130,13 +136,16 @@ max-height: auto !important; /* or to whatever you want here */
 	line-height: 2em;
 }
 
-.fa-stack        .fa { color: #fff; cursor: pointer; }
+.fa-stack        .fa { color: #fff ; cursor:default; }
+ 
 /*.fa-stack        .fa.fa-circle-thin { color: black; }*/
 .fa-stack        .fa.fa-circle { opacity:1.0; color:#337ab7; }
 
 .fa-stack:hover  .fa.fa-user-plus { color: #fff; }
 /*.fa-stack        .fa.fa-circle-thin { color: black; }*/
 .fa-stack:hover  .fa.fa-circle { opacity:1.0; color:#204d74; }
+
+/*.fa-pointer{ cursor: pointer; }*/
 
 footer{
 	text-align:center;
