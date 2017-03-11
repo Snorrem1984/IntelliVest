@@ -31,13 +31,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand logo-nav" href="#"><img src="{% static 'IntelliVest_logo_light.png'%}"></a>
+          <a class="navbar-brand logo-nav" href="../"><img src="{% static 'IntelliVest_logo_light.png'%}"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#omoss">Om oss</a></li>
-            <li><a href="#portefolje">Portefølje</a></li>
-            <li><a href="#kontakt">Kontakt</a></li>
+            <li><a href="omoss">Om oss</a></li>
+            <li><a href="portefolje">Portefølje</a></li>
+            <li><a href="kontakt">Kontakt</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -56,97 +56,141 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="animated fadeInLeft">
+            <div> <!-- class="animated fadeInLeft" -->
               <h1>Invester i intelligens</h1>
               <p class="lead">Smarte løsninger for smarte selskaper</p>
-              <a class="btn btn-primary btn-lg" href="#LærMer">Lær mer</a>
+              <!-- <a class="btn btn-primary btn-lg" href="#LærMer">Lær mer</a> -->
               <p></p>
             </div>
           </div>
+          
           <div class="col-md-3">
-            <div class="animated fadeInUp">
+           <!--  <div class="animated fadeInUp">
             <img src="static/img/python_sh-600x6001.png" class="img-responsive visible-lg-block hidden-sm">
+            </div> -->
+          </div>
+          <div class="col-md-3">
+            <!-- <div class="animated fadeInUp">
+              <img src="static/img/django.png" class="img-responsive visible-lg-block hidden-sm">
+          </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+
+  <div class="carousel-inner" role="listbox">
+
+    <div class="item active">
+ 
+      <div class="section-secondary slogan" id='LærMer' >
+        <h1>Dette gjør vi</h1>
+          <p>IntelliVest gir rådgivning og utvikler verktøy for bedre beslutninger ved å visualisere og strukturere styringskritiske data</p>
+<!--           <span class="fa-stack fa-lg fa-3x">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-angle-double-right fa-rotate-90 fa-stack-1x"></i>
+          </span> -->
+      </div>
+    </div>
+
+    <div class="item">
+      <section class="section-gray">
+            <div class="container">
+               <h2 class="page-header" style="text-align: center">Vårt forretningsområde</h2>
+              <div class="row">
+                <div class="col-md-3 col-sm-3 text-center">
+                  
+
+                  <span class="fa-stack fa-lg fa-4x fa-pointer" input type="submit" data-toggle="modal" data-target="#myModal">
+                    <i class="fa fa-circle fa-stack-2x fa-color"></i>
+                    <i class="fa fa-code-fork fa-stack-1x fa-inverse"></i>
+                  </span>
+      <!--             </button> -->
+                  <h3>Rådgivning og<br>prosess utvikling</h3>
+                </div>
+                <div class="col-md-3 col-sm-3 text-center">
+                   <span class="fa-stack fa-lg fa-4x fa-pointer">
+                    <i class="fa fa-circle fa-stack-2x fa-color"></i>
+                    <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h3>Dataanalyse og<br>modellering</h3>
+                </div>
+                <div class="col-md-3 col-sm-3 text-center">
+                   <span class="fa-stack fa-lg fa-4x fa-pointer">
+                    <i class="fa fa-circle fa-stack-2x fa-color"></i>
+                    <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h3>Applikasjons-<br>utvikling</h3>
+                </div>
+                <div class="col-md-3 col-sm-3 text-center">
+                   <span class="fa-stack fa-lg fa-4x fa-pointer">
+                    <i class="fa fa-circle fa-stack-2x fa-color"></i>
+                    <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
+                 </span>
+                  <h3>Visualisering og<br>rapportering</h3>
+                </div>
+              </di      </div>
+          </section>
+    </div>
+
+
+
+    <div class="item">
+      <section>
+        <div class="container fill">
+                      <h2 class="page-header" style="text-align: center">Hvordan vi gjør det - En dynamisk prosess</h2>
+          <div class="row">
+            <div class="col-md-7">
+              <br>
+              <ul class="feature-list">
+                <li><i class="glyphicon glyphicon-ok"></i> Observe - Bli kjent med kunden, hvordan gjør de det i dag</li>
+                <li><i class="glyphicon glyphicon-ok"></i> Orient - Vurder områder med utviklingspotensiale</li>
+                <li><i class="glyphicon glyphicon-ok"></i> Decide - Foreslår og drøft potensielle løsninger med kunden</li>
+                <li><i class="glyphicon glyphicon-ok"></i> Act- Utvikle rutiner/prosesser og verktøy for økt verdiskapning gjennom delmål med kontinuerlig evaluering og vurdering av potensielt nye utviklingsområder</li>
+              </ul>
+            </div>
+            <div class="col-md-5">
+              <center><img src="static/img/ooda loop.png" class="img-responsive img-second"></center>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="animated fadeInUp">
-              <img src="static/img/django.png" class="img-responsive visible-lg-block hidden-sm">
-          </div>
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
+
+
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
     <!-- Button trigger modal -->
-    <section class="section-secondary slogan" id='LærMer' >
-      <h1>Dette gjør vi</h1>
-        <p>IntelliVest gir rådgivning og utvikler verktøy for bedre beslutninger ved å visualisere og strukturere styringskritiske data</p>
-        <p> Trykk på ikonene under for mer informasjon</p>
-        <span class="fa-stack fa-lg fa-3x">
-          <i class="fa fa-circle-thin fa-stack-2x"></i>
-          <i class="fa fa-angle-double-right fa-rotate-90 fa-stack-1x"></i>
-        </span>
-    </section>
 
-    <br id="MerInformasjon">
 
-      <section class="section-gray">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-3 text-center">
-            
+<!--     <br id="MerInformasjon">
 
-            <span class="fa-stack fa-lg fa-4x fa-pointer" input type="submit" data-toggle="modal" data-target="#myModal">
-              <i class="fa fa-circle fa-stack-2x fa-color"></i>
-              <i class="fa fa-code-fork fa-stack-1x fa-inverse"></i>
-            </span>
-<!--             </button> -->
-            <h3>Rådgivning og<br>prosess utvikling</h3>
-          </div>
-          <div class="col-md-3 col-sm-3 text-center">
-             <span class="fa-stack fa-lg fa-4x fa-pointer">
-              <i class="fa fa-circle fa-stack-2x fa-color"></i>
-              <i class="fa fa-database fa-stack-1x fa-inverse"></i>
-            </span>
-            <h3>Dataanalyse og<br>modellering</h3>
-          </div>
-          <div class="col-md-3 col-sm-3 text-center">
-             <span class="fa-stack fa-lg fa-4x fa-pointer">
-              <i class="fa fa-circle fa-stack-2x fa-color"></i>
-              <i class="fa fa-code fa-stack-1x fa-inverse"></i>
-            </span>
-            <h3>Applikasjons-<br>utvikling</h3>
-          </div>
-          <div class="col-md-3 col-sm-3 text-center">
-             <span class="fa-stack fa-lg fa-4x fa-pointer">
-              <i class="fa fa-circle fa-stack-2x fa-color"></i>
-              <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
-           </span>
-            <h3>Visualisering og<br>rapportering</h3>
-          </div>
-        </di      </div>
-    </section>
+      
     <br>
+ -->
 
-    <section>
-      <div class="container">
-                    <h2 class="page-header" style="text-align: center">Hvordan vi gjør det - En dynamisk prosess</h2>
-        <div class="row">
-          <div class="col-md-7">
-            <br>
-            <ul class="feature-list">
-              <li><i class="glyphicon glyphicon-ok"></i> Observe - Bli kjent med kunden, hvordan gjør de det i dag</li>
-              <li><i class="glyphicon glyphicon-ok"></i> Orient - Vurder områder med utviklingspotensiale</li>
-              <li><i class="glyphicon glyphicon-ok"></i> Decide - Foreslår og drøft potensielle løsninger med kunden</li>
-              <li><i class="glyphicon glyphicon-ok"></i> Act- Utvikle rutiner/prosesser og verktøy for økt verdiskapning gjennom delmål med kontinuerlig evaluering og vurdering av potensielt nye utviklingsområder</li>
-            </ul>
-          </div>
-          <div class="col-md-5">
-            <center><img src="static/img/ooda loop.png" class="img-responsive img-second"></center>
-          </div>
-        </div>
-      </div>
-    </section>
 
 
     <footer>
@@ -179,5 +223,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="{% static 'js/bootstrap.js'%}"></script>
+
+    <br>
+    <br>
+
   </body>
 </html>

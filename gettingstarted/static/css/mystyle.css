@@ -1,10 +1,14 @@
 body {
   padding-top: 60px;
+  height: 100%;
 }
 
 .nav{
 	margin-top:18px;
+	height: 100%;
 }
+
+
 
 .navbar{
 	min-height:90px;
@@ -61,14 +65,28 @@ body {
 .section-primary{
 	background:#0383c0;
 	color:#fff;
-	padding:60px 0;
+	height: 100%;
+	/*padding:60px 0;*/
 }
 
+.section-gray{
+	min-height: 100% !important;
+	height: 100% !important;
+	padding-bottom:100px !important;
+}
+
+.fill {
+	min-height: 100% !important;
+	height: 100% !important;
+	padding-bottom: 18px !important;
+}
 
 .section-secondary{
 	background:#337ab7; 
 	color:#fff;
-	padding:60px 0;
+	padding:100px 0;
+	min-height: 400px !important;
+	height: 100%;
 }
 
 .section-secondary-white{
@@ -94,10 +112,13 @@ body {
 	margin-top:20px;
 }
 
-
 .jumbotron{
-	margin:0 !important;
-	min-height:400px;
+	/*margin-top: -25px !important;*/
+	/*min-height:50px;*/
+	padding-bottom: 15px !important;
+	margin-bottom: 0px !important;
+	padding-top: 0px !important;
+	width:100%;
 	background:url('../img/bg.jpg') no-repeat;
 }
 
@@ -147,11 +168,52 @@ max-height: auto !important; /* or to whatever you want here */
 
 .fa-pointer{ cursor: pointer; }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+
+    /*background: #3a3a4f;*/
+    /*width: 100%;*/
+    /*position: absolute;*/
+    top: 50px;
+    margin-bottom: -60px;
+}
+
+.push {
+  height: 100px;
+}
+
 footer{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	bottom: 0;
 	text-align:center;
 	height:60px;
 	background:#101010;
 	font-family: 'Oswald', sans-serif;
 	color:#9d9d9d;
 	padding-top:20px;
+	background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+}
+
+.carousel-inner{
+  width:100%;
+  min-height: 100% !important;
+  height: 100% !important;
+}
+
+.carousel {
+  width:100%;
+  height: 100% !important;
 }
