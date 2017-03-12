@@ -136,17 +136,17 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 # Local - Commandline output e-mail settings
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' 
-DEFAULT_FROM_EMAIL = 'testing@example.com'
-EMAIL_HOST_USER = ''
-EMAIL_HOST_PASSWORD = ''
-EMAIL_USE_TLS = False 
-EMAIL_PORT = 1025
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' 
+# DEFAULT_FROM_EMAIL = 'testing@example.com'
+# EMAIL_HOST_USER = ''
+# EMAIL_HOST_PASSWORD = ''
+# EMAIL_USE_TLS = False 
+# EMAIL_PORT = 1025
 
 # Live e-mailssetting
 
-# EMAIL_USE_TLS = True
-# EMAIL_HOST = 'mail.fastname.no'
-# EMAIL_HOST_USER = 'admin@intellivest.no'
-# EMAIL_HOST_PASSWORD = '24WamLuv1v'
-# EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'mail.fastname.no'
+EMAIL_HOST_USER = 'admin@intellivest.no'
+EMAIL_HOST_PASSWORD = '24WamLuv1v'
+EMAIL_PORT = 587
